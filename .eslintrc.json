@@ -1,0 +1,12 @@
+{
+    "extends": ["standard", "standard-jsx"],
+    "plugins": ["prettier"],
+    "rules": {
+        "react/destructuring-assignment": "off",
+        "arrow-body-style": "off",
+        "prefer-arrow-callback": "off",
+        "react/prop-types": "off",
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"]
+    }
+}
